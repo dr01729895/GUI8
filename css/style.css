@@ -1,0 +1,54 @@
+/* 
+    File: /domenic_ruocco_hw8/css/style.css
+    Assignment: HW8
+    Domenic Ruocco, UML Comp Sci, druocco@cs.uml.edu
+    Course: 91.61 GUI Programming I
+    Copyright (c) 2020 by Domenic Ruocco. All rights reserved.
+*/
+
+body {
+    background-color: #272727;
+    color: #d3d3d3;
+}
+
+*:focus {
+    outline: none;
+}
+
+#board {
+    width: 1101px;
+    height: 79px;
+    display: grid;
+    grid-template-columns: 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px 67px;
+    grid-template-rows: 79px;
+    column-gap: 6px;
+    background-image: url("../images/board.png");
+}
+
+#hand {
+    width: 517px;
+    height: 79px;
+    display: grid;
+    grid-template-columns: 67px 67px 67px 67px 67px 67px 67px;
+    grid-template-rows: 79px;
+    column-gap: 6px;
+    margin-left: 6px;
+}
+
+#space, #letter {
+    width: 67px;
+    height: 67px;
+}
+
+#space {
+    margin-top: 6px;
+    margin-left: 6px;
+    grid-column-start: 6px;
+    opacity: 0.25;
+}
+
+
+.hover {
+    background-color: green;
+    opacity: 0.5;
+}

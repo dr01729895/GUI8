@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!--
+    File: /domenic_ruocco_hw8/index.html
+    Assignment: HW8
+    Domenic Ruocco, UML Comp Sci, druocco@cs.uml.edu
+    Course: 91.61 GUI Programming I
+    Copyright (c) 2020 by Domenic Ruocco. All rights reserved.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <title>
+            Homework #8
+        </title>
+    </head>
+    <body>
+        
+        <div id="total">Total Score: 0</div></div>
+        <div id="score">Current Score: 0</div></div>
+        <div id="word">Current Word: </div></div>
+        <div id="validity">Validity: FALSE</div>
+        
+        <div id="board">
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="Double Word"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="Double Letter"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="Double Letter"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="Double Word"></div>
+            <div id="space" class="X"></div>
+            <div id="space" class="X"></div>
+        </div>
+
+        <div id="hand"></div>
+        
+        <button id="Reset">Reset Game</button>
+        <button id="Play">Play Word</button>
+        <button id="Clear">Return Letters</button>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+        <script src="./js/dict.js"></script>
+        <script src="./js/script.js"></script>
+     </body>
+</html>
